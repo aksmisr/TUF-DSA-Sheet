@@ -16,14 +16,13 @@ A
 
 
 class Solution:
-    def pattern15(self, n):
+    def pattern(self, n):
         for i in range(n):
             for j in range(n-i):
                 print(chr(65+j), end = "")
             print()
-
 # ---- main driver code ----
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern15(n) 
+    obj.pattern(n) 

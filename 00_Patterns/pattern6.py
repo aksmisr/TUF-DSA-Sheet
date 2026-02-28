@@ -15,7 +15,7 @@ Let's say for N = 5, the pattern should look like as below:
 """
 
 class Solution:
-    def pattern11(self, n):
+    def pattern(self, n):
         for i in range(1, n + 1):
             # Decide starting number
             if i % 2 == 1:
@@ -28,11 +28,8 @@ class Solution:
                 # Toggle between 1 and 0
                 num = 1 - num
             print()
-
-
-
 # ---- main driver code ----
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern11(n) 
+    obj.pattern(n) 

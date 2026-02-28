@@ -12,7 +12,7 @@ ABCDEDCBA
 
 
 class Solution:
-    def pattern16(self, n):
+    def pattern(self, n):
         for i in range(n):
             for s in range(n-i-1):
                 print(" ", end = "")
@@ -21,11 +21,8 @@ class Solution:
             for j in range(i-1, -1, -1):
                 print(chr(65+j), end = "")
             print()
-            
-
-
-# ---- main driver code ----
+            # ---- main driver code ----
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern16(n) 
+    obj.pattern(n) 

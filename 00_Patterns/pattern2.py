@@ -13,7 +13,7 @@
 1"""
 
 class Solution:
-    def pattern6(self, n):
+    def pattern(self, n):
         for i in range(n):
             for j in range(1, n-i+1):
                 print(j, end = "")
@@ -22,6 +22,6 @@ class Solution:
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern6(n)
+    obj.pattern(n)
 
     

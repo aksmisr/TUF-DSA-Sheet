@@ -16,7 +16,7 @@ Let's say for N = 5, the pattern should look like as below:
 
 
 class Solution:
-    def pattern21(self, n):
+    def pattern(self, n):
         size = 2*n - 1
         
         for i in range(size):
@@ -36,4 +36,4 @@ class Solution:
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern21(n) 
+    obj.pattern(n)

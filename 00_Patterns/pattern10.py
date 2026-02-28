@@ -15,7 +15,7 @@ A B C D E
 """
 
 class Solution:
-    def pattern18(self, n):
+    def pattern(self, n):
         for i in range(n):
             for j in range(i+1):
                 print(chr(65 + n - i - 1 + j), end=" ")
@@ -24,4 +24,4 @@ class Solution:
 if __name__ == "__main__":
     n= int(input())
     obj = Solution()
-    obj.pattern18(n) 
+    obj.pattern(n) 
