@@ -1,0 +1,34 @@
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.env.*
+
+# =========================
+# VS Code settings (local)
+# =========================
+.vscode/
+
+# =========================
+# Competitive coding input/output files
+# =========================
+input.txt
+output.txt
+test.txt
+*.in
+*.out
+
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+Thumbs.db
