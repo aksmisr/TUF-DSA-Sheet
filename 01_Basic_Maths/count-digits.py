@@ -34,8 +34,6 @@ class Solution:
         return cnt
 if __name__ == "__main__":
     n = int(input())   
-    
     obj = Solution()
     digits = obj.countDigit(n)
-    
     print(digits)
