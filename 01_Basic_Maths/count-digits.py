@@ -32,13 +32,10 @@ class Solution:
             cnt += 1
             n = n // 10
         return cnt
-
-
 if __name__ == "__main__":
-    n = 329823
-    print("N:", n)
+    n = int(input())   
     
-    obj = Solution()              
-    digits = obj.countDigit(n)    
+    obj = Solution()
+    digits = obj.countDigit(n)
     
-    print("Number of Digits in N:", digits)
+    print(digits)
