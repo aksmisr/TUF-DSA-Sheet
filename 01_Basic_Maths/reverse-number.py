@@ -30,5 +30,5 @@ class Solution:
 if __name__ == "__main__":
     n = int(input())   
     obj = Solution()
-    digits = obj.reverseNumber(n)
-    print(digits)
+    reverse = obj.reverseNumber(n)
+    print(reverse)

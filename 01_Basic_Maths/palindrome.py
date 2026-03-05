@@ -38,5 +38,5 @@ class Solution:
 if __name__ == "__main__":
     n = int(input())   
     obj = Solution()
-    digits = obj.isPalindrome(n)
-    print(digits)
+    palindrome = obj.isPalindrome(n)
+    print(palindrome)
