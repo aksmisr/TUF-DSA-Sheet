@@ -43,5 +43,4 @@ if __name__ == "__main__":
 
     obj = Solution()
     result = obj.GCD(n1, n2)
-
     print(result)
