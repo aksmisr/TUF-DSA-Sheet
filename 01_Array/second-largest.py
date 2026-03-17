@@ -22,6 +22,11 @@ class Solution:
             return -1
         return second_large      
 
+nums = list(map(int, input().split()))
+obj = Solution()
+result = obj.secondLargestElement(nums)
+print("Second Largest:", result)
+
 
 
 """              Time Complexity        :          O(n)                  
