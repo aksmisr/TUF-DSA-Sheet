@@ -17,3 +17,5 @@ obj = Solution()
 result = obj.largestElement(nums)
 print("Largest element is:", result)
  
+
+"""              Time Complexity ---   O(n)                  """
