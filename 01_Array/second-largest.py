@@ -21,7 +21,7 @@ class Solution:
         if second_large == float('-inf'):
             return -1
         return second_large      
-    
+
 
 
 """              Time Complexity        :          O(n)                  
