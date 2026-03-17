@@ -17,3 +17,7 @@ class Solution:
 nums = list(map(int, input().split()))
 obj = Solution()
 print("Second Smallest:", obj.secondSmallestElement(nums))
+
+
+"""              Time Complexity        :          O(n)                  
+                 Space Complexity       :          O(1)        """
