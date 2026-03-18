@@ -38,3 +38,7 @@ k = obj.removeDuplicates(nums)
 
 print("New length:", k)
 print("Unique elements:", nums[:k])
+
+
+"""              Time Complexity        :          O(n)                  
+                 Space Complexity       :          O(1)        """
