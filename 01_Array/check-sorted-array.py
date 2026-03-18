@@ -23,3 +23,7 @@ obj = Solution()
 result = obj.isSorted(nums)
 
 print(result)
+
+
+"""              Time Complexity        :          O(n)                  
+                 Space Complexity       :          O(1)        """
