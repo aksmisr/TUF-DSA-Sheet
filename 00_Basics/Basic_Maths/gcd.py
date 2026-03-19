@@ -25,6 +25,7 @@ Output: 1
 Explanation: Divisors of n1 = 1, 3, 9 Divisors of n2 = 1, 2, 4, 8.
 
 Greatest Common divisor = 1.
+
 """
 
 class Solution:

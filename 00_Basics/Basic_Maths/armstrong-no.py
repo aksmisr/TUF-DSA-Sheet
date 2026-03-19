@@ -13,7 +13,7 @@ class Solution:
         dup = n
         while(n>0):
             lastd = n % 10 
-            sum = sum + (lastd*lastd*lastd)
+            sum = sum + (lastd**n)
             n = n // 10
         return sum == dup
 # ---- main driver code ----
