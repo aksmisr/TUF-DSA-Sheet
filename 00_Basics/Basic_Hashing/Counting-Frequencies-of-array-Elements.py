@@ -35,6 +35,7 @@ Output: [[5, 4]]
 Explanation:
 
 - 5 appears 4 times.
+
 """
 
 from collections import defaultdict
