@@ -17,9 +17,12 @@ def rotate(nums):
     
     nums[-1] = first        
 
-n = int(input())                     # size of array
-nums = list(map(int, input().split()))  # input elements
+n = int(input())                     
+nums = list(map(int, input().split())) 
 
 rotate(nums)
 
-print(*nums)   # print updated array
+print(*nums)   
+
+"""              Time Complexity        :          O(n)                  
+                 Space Complexity       :          O(1) """
