@@ -16,3 +16,10 @@ def rotate(nums):
         nums[i] = nums[i + 1]  
     
     nums[-1] = first        
+
+n = int(input())                     # size of array
+nums = list(map(int, input().split()))  # input elements
+
+rotate(nums)
+
+print(*nums)   # print updated array
