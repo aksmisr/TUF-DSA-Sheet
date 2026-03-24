@@ -20,3 +20,8 @@ def solve(arr, n):
     print()
 
 
+if __name__ == "__main__":
+    n = 5 
+    arr = [1, 2, 3, 4, 5]  
+
+    solve(arr, n)  
