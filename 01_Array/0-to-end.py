@@ -42,3 +42,6 @@ sol.moveZeroes(nums)
 
 # Print the result
 print(" ".join(map(str, nums)))
+
+"""              Time Complexity        :          O(n)                  
+                 Space Complexity       :          O(1)        """
