@@ -12,3 +12,6 @@ It includes:
 Beginner → Advanced level questions
 Topic-wise structured problems
 Interview-focused preparationg
+
+🛠️ Language Used
+Python 3
