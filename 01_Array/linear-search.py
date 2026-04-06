@@ -30,6 +30,12 @@ def find_first_index(nums, target):
             return i
     return -1
 
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter array elements (space-separated): ").split()))
+    target = int(input("Enter target: "))
+    result = find_first_index(nums, target)
+    print("Output:", result)
+
 
 """              Time Complexity        :          O(n)                  
                  Space Complexity       :          O(1)        """
