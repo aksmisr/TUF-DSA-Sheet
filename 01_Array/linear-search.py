@@ -24,3 +24,9 @@ The value 6 does not occur in the array, hence output is -1
 
 """
 
+def find_first_index(nums, target):
+    for i in range(len(nums)):
+        if nums[i] == target:
+            return i
+    return -1
+
