@@ -29,7 +29,6 @@ def find_first_index(nums, target):
         if nums[i] == target:
             return i
     return -1
-
 if __name__ == "__main__":
     nums = list(map(int, input("Enter array elements (space-separated): ").split()))
     target = int(input("Enter target: "))
