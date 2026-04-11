@@ -45,6 +45,21 @@ class Solution:
                     Union.append(arr2[j])
                 j += 1
             else:
+                if not Union or Union[-1] != arr1[i]:
+                    Union.append(arr1[i])
+                i += 1
+                j += 1
+        while i < n:
+            if not Union or Union[-1] != arr1[i]:
+                Union.append(arr1[i])
+            i += 1
+
+        # Append remaining elements from arr2
+        while j < m:
+            if not Union or Union[-1] != arr2[j]:
+                Union.append(arr2[j])
+            j += 1
+        return Union
                 
 
 
