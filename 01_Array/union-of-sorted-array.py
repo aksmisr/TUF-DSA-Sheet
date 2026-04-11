@@ -28,3 +28,23 @@ Explanation:
 The element 7 is common to both, 3, 4, 6, 9 are from nums1 and 1, 5, 8 is from nums2
 
 """
+
+class Solution:
+    def findUnion(self, arr1, arr2, n, m):
+
+        Union = []
+        i, j = 0, 0
+        while i < n and j < m:
+            if arr1[i] < arr2[j]:
+                if not Union or Union[-1] != arr1[i]:
+                    Union.append(arr1[i])
+                i += 1
+            # If element in arr2 is smaller
+            elif arr2[j] < arr1[i]:
+                if not Union or Union[-1] != arr2[j]:
+                    Union.append(arr2[j])
+                j += 1
+            else:
+                
+
+
